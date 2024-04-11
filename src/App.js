@@ -1,9 +1,9 @@
 import { React } from 'react';
 import './App.scss';
+import DropDown from './components/DropDown.js';
 
-const App = () =>
-	<div className="App">
-		Ready to start.
-	</div>;
+const App = () => <div>
+	<DropDown/>
+</div>;
 
 export default App;
